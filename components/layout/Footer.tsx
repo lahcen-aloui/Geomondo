@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
-import SpinningGlobe from '@/components/ui/SpinningGlobe';
+import GeoMondoLogo from '@/components/ui/GeoMondoLogo';
 
 export default async function Footer() {
   const tNav = await getTranslations('nav');
@@ -13,10 +13,8 @@ export default async function Footer() {
 
           {/* Brand */}
           <div>
-            <Link href="/" className="inline-flex items-center gap-0.5">
-              <span className="text-lg font-extrabold text-it-green">Geo</span>
-              <SpinningGlobe className="text-base" />
-              <span className="text-lg font-extrabold text-foreground">Mon</span><span className="text-lg font-extrabold text-it-red">do</span>
+            <Link href="/" className="inline-flex items-center">
+              <GeoMondoLogo textSize="text-lg" globeClassName="text-base" />
             </Link>
             <p className="mt-1 text-xs text-muted max-w-xs">
               {tFooter('tagline')}

@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import LocaleSwitcher from './LocaleSwitcher';
-import SpinningGlobe from '@/components/ui/SpinningGlobe';
+import GeoMondoLogo from '@/components/ui/GeoMondoLogo';
 import NavbarUserMenu from './NavbarUserMenu';
 import ThemeToggle from './ThemeToggle';
 import { createClient } from '@/lib/supabase/server';
@@ -29,11 +29,7 @@ export default async function Navbar() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <span className="flex items-center gap-0.5 text-xl font-extrabold tracking-tight leading-none select-none">
-            <span className="text-it-green">Geo</span>
-            <SpinningGlobe className="text-lg" />
-            <span className="text-foreground">Mon</span><span className="text-it-red">do</span>
-          </span>
+          <GeoMondoLogo textSize="text-xl" globeClassName="text-lg" />
           <span className="hidden sm:inline text-xs text-muted font-medium border border-border rounded-full px-2 py-0.5">
             {t('logoTagline')}
           </span>

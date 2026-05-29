@@ -64,7 +64,17 @@ export default async function HomePage({ params }: Props) {
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tight leading-[1.08] mb-6">
             <span className="text-foreground">{t('hero.title')} </span>
-            <span className="text-it-green">{t('hero.titleAccent')}</span>
+            <span
+              className="whitespace-nowrap"
+              style={{
+                background: 'linear-gradient(to right, #009246 0%, #ffffff 50%, #ce2b37 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+              }}
+            >
+              {t('hero.titleAccent')}
+            </span>
           </h1>
 
           <p className="text-muted text-lg sm:text-xl max-w-xl mx-auto mb-10 leading-relaxed">

@@ -9,7 +9,7 @@ import { getRandomLocationApi } from '@/lib/api';
 
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? '';
 import StreetViewPanel, { type PanoNavActions } from './StreetViewPanel';
-import SpinningGlobe from '@/components/ui/SpinningGlobe';
+import GeoMondoLogo from '@/components/ui/GeoMondoLogo';
 import GuessMap from './GuessMap';
 import RoundResult from './RoundResult';
 import NavigationToolbar from './minimap/NavigationToolbar';
@@ -194,10 +194,8 @@ export default function ClassicoGame() {
       )}
 
       {/* ── TOP LEFT: logo — hidden on mobile to save space ── */}
-      <div className="absolute top-4 left-4 z-10 hidden sm:block">
-        <span className="text-xl font-black tracking-tight leading-none select-none pointer-events-none">
-          <span className="text-it-green">Ge</span><SpinningGlobe className="align-middle" /><span className="text-white">Mon</span><span className="text-it-red">do</span>
-        </span>
+      <div className="absolute top-4 left-4 z-10 hidden sm:block select-none pointer-events-none">
+        <GeoMondoLogo textSize="text-xl" globeClassName="align-middle" />
       </div>
 
       {/* ── BOTTOM LEFT: panorama controls ── */}
