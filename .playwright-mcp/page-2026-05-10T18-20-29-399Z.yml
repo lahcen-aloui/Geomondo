@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "GeoMondo Guess the world" [ref=e4] [cursor=pointer]:
+        - /url: /en
+        - generic [ref=e5]: GeoMondo
+        - generic [ref=e6]: Guess the world
+      - generic [ref=e10]:
+        - link "Sign In" [ref=e11] [cursor=pointer]:
+          - /url: /en/accedi
+        - link "🌍 Play" [ref=e12] [cursor=pointer]:
+          - /url: /en/gioca
+          - generic [ref=e13]: 🌍
+          - text: Play
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e72]:
+        - generic [ref=e73]: Round 2/5
+        - generic [ref=e74]: "Score: 375"
+      - generic [ref=e75]:
+        - iframe [ref=e77]:
+          - generic [ref=f5e2]: Google Maps Platform rejected your request. The provided API key is invalid.
+        - generic [ref=e79]:
+          - generic:
+            - paragraph: Click on the map to place your pin
+  - contentinfo [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - link "GeoMondo" [ref=e21] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e22]: GeoMondo
+          - paragraph [ref=e23]: Un progetto open source. Ispirato a WorldGuessr.
+        - navigation [ref=e24]:
+          - link "Play" [ref=e25] [cursor=pointer]:
+            - /url: /en/gioca
+          - link "Leaderboard" [ref=e26] [cursor=pointer]:
+            - /url: /en/classifica
+          - link "How it works" [ref=e27] [cursor=pointer]:
+            - /url: /en/come-funziona
+      - generic [ref=e32]:
+        - generic [ref=e33]: © 2026 GeoMondo
+        - generic [ref=e34]: Fatto con ❤️ in Italia
+  - button "Open Next.js Dev Tools" [ref=e49] [cursor=pointer]:
+    - img [ref=e50]
+  - alert [ref=e53]

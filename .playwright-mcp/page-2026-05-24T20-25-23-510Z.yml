@@ -1,0 +1,141 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Geo 🌎 Mon do Guess the world" [ref=e155] [cursor=pointer]:
+        - /url: /en
+        - generic [ref=e5]:
+          - generic [ref=e6]: Geo
+          - generic [ref=e7]: 🌎
+          - generic [ref=e8]: Mon
+          - generic [ref=e9]: do
+        - generic [ref=e10]: Guess the world
+      - generic [ref=e11]:
+        - link "How it works" [ref=e12] [cursor=pointer]:
+          - /url: /en/come-funziona
+        - link "Leaderboard" [ref=e13] [cursor=pointer]:
+          - /url: /en/classifica
+      - generic [ref=e14]:
+        - button "Attiva modalità scura" [active] [ref=e156] [cursor=pointer]:
+          - img [ref=e157]
+        - button "Passa all'italiano" [ref=e16] [cursor=pointer]: IT
+        - link "Sign In" [ref=e17] [cursor=pointer]:
+          - /url: /en/accedi
+        - link "🌍 Play" [ref=e18] [cursor=pointer]:
+          - /url: /en/gioca
+          - generic [ref=e19]: 🌍
+          - text: Play
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: Free · No registration required
+        - heading "Guess where you are in the world" [level=1] [ref=e26]:
+          - generic [ref=e27]: Guess where you are
+          - text: in the world
+        - paragraph [ref=e28]: Explore the planet through Street View, discover extraordinary places, and challenge yourself. Zero cost, zero limits.
+        - generic [ref=e29]:
+          - link "🌍 Play Free" [ref=e30] [cursor=pointer]:
+            - /url: /en/gioca
+          - link "How it works →" [ref=e31] [cursor=pointer]:
+            - /url: "#come-funziona"
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: 50k+
+          - generic [ref=e36]: Locations worldwide
+        - generic [ref=e37]:
+          - generic [ref=e38]: "4"
+          - generic [ref=e39]: Game modes
+        - generic [ref=e40]:
+          - generic [ref=e41]: 100%
+          - generic [ref=e42]: Free
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "How it works" [level=2] [ref=e46]
+          - paragraph [ref=e47]: Three simple steps to explore the world
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic: "01"
+            - img [ref=e51]
+            - heading "Explore" [level=3] [ref=e54]
+            - paragraph [ref=e55]: Get dropped somewhere in the world through Street View
+          - generic [ref=e56]:
+            - generic: "02"
+            - img [ref=e58]
+            - heading "Guess" [level=3] [ref=e61]
+            - paragraph [ref=e62]: Drop a pin on the world map where you think you are
+          - generic [ref=e63]:
+            - generic: "03"
+            - img [ref=e65]
+            - heading "Discover" [level=3] [ref=e67]
+            - paragraph [ref=e68]: See how accurate you were, earn points and climb the leaderboard
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - heading "Game modes" [level=2] [ref=e72]
+          - paragraph [ref=e73]: Choose the challenge that suits you
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - heading "Classic" [level=3] [ref=e77]
+              - generic [ref=e78]: Recommended
+            - paragraph [ref=e79]: 5 rounds across the entire world, no time limit. The original mode.
+            - link "Play" [ref=e80] [cursor=pointer]:
+              - /url: /en/gioca/classico
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "Sprint" [level=3] [ref=e83]
+              - generic [ref=e84]: Fast
+            - paragraph [ref=e85]: 60 seconds per round. Maximum adrenaline, no hesitation.
+            - generic [ref=e86]: Coming Soon
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - heading "Country" [level=3] [ref=e89]
+              - generic [ref=e90]: Easy
+            - paragraph [ref=e91]: Guess only the country, not the exact location. Easier.
+            - generic [ref=e92]: Coming Soon
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - heading "Italy Only" [level=3] [ref=e95]
+              - generic [ref=e96]: Italy
+            - paragraph [ref=e97]: Explore only Italian roads and landscapes. For patriots.
+            - generic [ref=e98]: Coming Soon
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading "Global Leaderboard" [level=2] [ref=e103]
+            - paragraph [ref=e104]: The world's best explorers
+          - link "View all →" [ref=e105] [cursor=pointer]:
+            - /url: /en/classifica
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: "#"
+            - generic [ref=e109]: Player
+            - generic [ref=e110]: Best Score
+            - generic [ref=e111]: Games
+            - generic [ref=e112]: Average
+          - generic [ref=e113]:
+            - text: Leaderboard —
+            - link "Play" [ref=e114] [cursor=pointer]:
+              - /url: /en/gioca
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - link "Geo 🌎 Mon do" [ref=e159] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e120]: Geo
+            - generic [ref=e121]: 🌎
+            - generic [ref=e122]: Mon
+            - generic [ref=e123]: do
+          - paragraph [ref=e124]: An open source project. Inspired by WorldGuessr.
+        - navigation [ref=e125]:
+          - link "Play" [ref=e126] [cursor=pointer]:
+            - /url: /en/gioca
+          - link "Leaderboard" [ref=e127] [cursor=pointer]:
+            - /url: /en/classifica
+          - link "How it works" [ref=e128] [cursor=pointer]:
+            - /url: /en/come-funziona
+      - generic [ref=e133]:
+        - generic [ref=e134]: © 2026 GeoMondo
+        - generic [ref=e135]: Made with ❤️ in Italy
+  - button "Open Next.js Dev Tools" [ref=e150] [cursor=pointer]:
+    - img [ref=e151]
+  - alert [ref=e154]

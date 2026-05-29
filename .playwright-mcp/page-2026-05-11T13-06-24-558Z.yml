@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ge Mondo Guess the world" [ref=e4] [cursor=pointer]:
+        - /url: /en
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - text: Ge
+            - img [ref=e7]
+          - text: Mondo
+        - generic [ref=e10]: Guess the world
+      - generic [ref=e11]:
+        - link "How it works" [ref=e12] [cursor=pointer]:
+          - /url: /en/come-funziona
+        - link "Leaderboard" [ref=e13] [cursor=pointer]:
+          - /url: /en/classifica
+      - generic [ref=e14]:
+        - link "Sign In" [ref=e15] [cursor=pointer]:
+          - /url: /en/accedi
+        - link "🌍 Play" [ref=e16] [cursor=pointer]:
+          - /url: /en/gioca
+          - generic [ref=e17]: 🌍
+          - text: Play
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - heading "🔴 Runtime Error (share this with Claude)" [level=2] [ref=e20]
+      - generic [ref=e21]: "Cannot read properties of undefined (reading 'call') TypeError: Cannot read properties of undefined (reading 'call') at options.factory (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:704:31) at __webpack_require__ (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:29:33) at fn (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:361:21) at eval (webpack-internal:///(app-pages-browser)/./node_modules/next-intl/dist/development/shared/utils.js:1:41) at (app-pages-browser)/./node_modules/next-intl/dist/development/shared/utils.js (http://localhost:3002/_next/static/chunks/app/%5Blocale%5D/gioca/classico/page.js:579:1) at options.factory (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:704:31) at __webpack_require__ (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:29:33) at fn (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:361:21) at eval (webpack-internal:///(app-pages-browser)/./node_modules/next-intl/dist/development/navigation/react-client/ClientLink.js:8:13) at (app-pages-browser)/./node_modules/next-intl/dist/development/navigation/react-client/ClientLink.js (http://localhost:3002/_next/static/chunks/app/%5Blocale%5D/gioca/classico/page.js:359:1) at options.factory (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:704:31) at __webpack_require__ (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:29:33) at fn (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:361:21) at eval (webpack-internal:///(app-pages-browser)/./node_modules/next-intl/dist/development/navigation/react-client/createSharedPathnamesNavigation.js:8:18) at (app-pages-browser)/./node_modules/next-intl/dist/development/navigation/react-client/createSharedPathnamesNavigation.js (http://localhost:3002/_next/static/chunks/app/%5Blocale%5D/gioca/classico/page.js:392:1) at options.factory (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:704:31) at __webpack_require__ (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:29:33) at fn (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:361:21) at eval (webpack-internal:///(app-pages-browser)/./node_modules/next-intl/dist/development/navigation.react-client.js:5:39) at (app-pages-browser)/./node_modules/next-intl/dist/development/navigation.react-client.js (http://localhost:3002/_next/static/chunks/app/%5Blocale%5D/gioca/classico/page.js:348:1) at options.factory (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:704:31) at __webpack_require__ (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:29:33) at fn (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:361:21) at eval (webpack-internal:///(app-pages-browser)/./i18n/navigation.ts:9:78) at (app-pages-browser)/./i18n/navigation.ts (http://localhost:3002/_next/static/chunks/app/%5Blocale%5D/gioca/classico/page.js:73:1) at options.factory (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:704:31) at __webpack_require__ (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:29:33) at fn (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:361:21) at eval (webpack-internal:///(app-pages-browser)/./components/game/ClassicoGame.tsx:8:74) at (app-pages-browser)/./components/game/ClassicoGame.tsx (http://localhost:3002/_next/static/chunks/app/%5Blocale%5D/gioca/classico/page.js:18:1) at options.factory (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:704:31) at __webpack_require__ (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:29:33) at fn (http://localhost:3002/_next/static/chunks/webpack.js?v=1778504784024:361:21) at requireModule (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:100:27) at initializeModuleChunk (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:1299:21) at readChunk (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.development.js:953:11) at Object.react_stack_bottom_frame (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:23691:18) at resolveLazy (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:5177:16) at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:10784:24) at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30) at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22) at workLoopConcurrentByScheduler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15721:9) at renderRootConcurrent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15696:15) at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:14990:13) at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7) at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)"
+  - contentinfo [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - link "GeoMondo" [ref=e26] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e27]: GeoMondo
+          - paragraph [ref=e28]: Un progetto open source. Ispirato a WorldGuessr.
+        - navigation [ref=e29]:
+          - link "Play" [ref=e30] [cursor=pointer]:
+            - /url: /en/gioca
+          - link "Leaderboard" [ref=e31] [cursor=pointer]:
+            - /url: /en/classifica
+          - link "How it works" [ref=e32] [cursor=pointer]:
+            - /url: /en/come-funziona
+      - generic [ref=e37]:
+        - generic [ref=e38]: © 2026 GeoMondo
+        - generic [ref=e39]: Fatto con ❤️ in Italia

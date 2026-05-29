@@ -1,0 +1,7 @@
+[   44725ms] [LOG] %c【AdEngine】(adaptive_v2-142) queued at 1605ms and loaded in 65ms. (geoguessr.com:18644-1778148915210-default) color:#2dc9ac; @ https://www.geoguessr.com/_next/static/chunks/main-adb29f5ec03f3a71.js:5
+[   44878ms] [WARNING] [GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://www.geoguessr.com/_next/static/chunks/main-adb29f5ec03f3a71.js:5
+[   45095ms] [LOG] Starting 3pc test @ https://static.anonm.io/light/check3pc.html:9
+[   45097ms] [LOG] 3PC enabled: true @ https://static.anonm.io/light/check3pc.html:32
+[   45097ms] [LOG] Storage API: cookie access granted @ https://static.anonm.io/light/check3pc.html:15
+[   45103ms] [WARNING] New tab auth error: cannot generate auth URL TypeError: Illegal invocation @ https://www.geoguessr.com/_next/static/chunks/main-adb29f5ec03f3a71.js:5

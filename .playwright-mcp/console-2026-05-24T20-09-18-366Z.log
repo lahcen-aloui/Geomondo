@@ -1,0 +1,44 @@
+[   21938ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1779653380201:0
+[   24939ms] [WARNING] The resource http://localhost:3000/_next/static/css/app/layout.css?v=1779653380201 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[   47449ms] [ERROR] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {name: AuthRetryableFetchError, message: fetch failed, status: 0, environmentName: Server, Symbol(next.console.error.digest): NEXT_CONSOLE_ERROR} @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[   47449ms] [ERROR] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {name: AuthRetryableFetchError, message: fetch failed, status: 0, environmentName: Server, Symbol(next.console.error.digest): NEXT_CONSOLE_ERROR} @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[   47450ms] [ERROR] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {name: AuthRetryableFetchError, message: fetch failed, status: 0, environmentName: Server, Symbol(next.console.error.digest): NEXT_CONSOLE_ERROR} @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[   47450ms] [ERROR] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {name: AuthRetryableFetchError, message: fetch failed, status: 0, environmentName: Server, Symbol(next.console.error.digest): NEXT_CONSOLE_ERROR} @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[   50466ms] [WARNING] The resource http://localhost:3000/_next/static/css/app/layout.css?v=1779653380201 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[   51228ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[   52002ms] [LOG] [Fast Refresh] done in 773ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[   52966ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   53268ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom.development.js:29889
+[   53342ms] Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- /Users/itslah/Documents/Claude/Projects/GeoMondo/.next/server/webpack-runtime.js
+- /Users/itslah/Documents/Claude/Projects/GeoMondo/.next/server/app/[locale]/(marketing)/page.js
+- /Users/itslah/Documents/Claude/Projects/GeoMondo/node_modules/next/dist/server/require.js
+- /Users/itslah/Documents/Claude/Projects/GeoMondo/node_modules/next/dist/server/load-components.js
+- /Users/itslah/Documents/Claude/Projects/GeoMondo/node_modules/next/dist/build/utils.js
+- /Users/itslah/Documents/Claude/Projects/GeoMondo/node_modules/next/dist/server/dev/static-paths-worker.js
+- /Users/itslah/Documents/Claude/Projects/GeoMondo/node_modules/next/dist/compiled/jest-worker/processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at <unknown> (file:///Users/itslah/Documents/Claude/Projects/GeoMondo/node_modules/next/dist/server/require-hook.js:57:36)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (file:///Users/itslah/Documents/Claude/Projects/GeoMondo/node_modules/next/dist/server/require-hook.js:68:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (file:///Users/itslah/Documents/Claude/Projects/GeoMondo/.next/server/webpack-runtime.js:190:28)
+[   53339ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[   88726ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   89727ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   90730ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   91732ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   92735ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[   97738ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  102739ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  107744ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[  107752ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/c9644f3714aaed4c.webpack.hot-update.json:0
+[  107752ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[  120890ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[  123306ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/c9644f3714aaed4c.webpack.hot-update.json:0
+[  123307ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347

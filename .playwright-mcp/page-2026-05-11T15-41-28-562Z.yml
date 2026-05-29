@@ -1,0 +1,70 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ge🌍Mondo Guess the world" [ref=e4] [cursor=pointer]:
+        - /url: /en
+        - generic [ref=e5]: Ge🌍Mondo
+        - generic [ref=e6]: Guess the world
+      - generic [ref=e7]:
+        - link "How it works" [ref=e8] [cursor=pointer]:
+          - /url: /en/come-funziona
+        - link "Leaderboard" [ref=e9] [cursor=pointer]:
+          - /url: /en/classifica
+      - generic [ref=e10]:
+        - link "Sign In" [ref=e11] [cursor=pointer]:
+          - /url: /en/accedi
+        - link "🌍 Play" [ref=e12] [cursor=pointer]:
+          - /url: /en/gioca
+          - generic [ref=e13]: 🌍
+          - text: Play
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic:
+        - generic: Ge🌍Mondo
+      - generic:
+        - generic:
+          - generic: "N"
+          - generic: NE
+          - generic: NW
+        - generic: 00:00
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: R1
+          - generic [ref=e21]: –
+        - generic [ref=e22]:
+          - generic [ref=e23]: R2
+          - generic [ref=e24]: –
+        - generic [ref=e25]:
+          - generic [ref=e26]: R3
+          - generic [ref=e27]: –
+        - generic [ref=e28]:
+          - generic [ref=e29]: R4
+          - generic [ref=e30]: –
+        - generic [ref=e31]:
+          - generic [ref=e32]: R5
+          - generic [ref=e33]: –
+        - generic [ref=e34]:
+          - generic [ref=e35]: Total
+          - generic [ref=e36]: –
+      - generic [ref=e38]:
+        - generic:
+          - paragraph: Click on the map to place your pin
+  - contentinfo [ref=e40]:
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - link "GeoMondo" [ref=e44] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e45]: GeoMondo
+          - paragraph [ref=e46]: Un progetto open source. Ispirato a WorldGuessr.
+        - navigation [ref=e47]:
+          - link "Play" [ref=e48] [cursor=pointer]:
+            - /url: /en/gioca
+          - link "Leaderboard" [ref=e49] [cursor=pointer]:
+            - /url: /en/classifica
+          - link "How it works" [ref=e50] [cursor=pointer]:
+            - /url: /en/come-funziona
+      - generic [ref=e55]:
+        - generic [ref=e56]: © 2026 GeoMondo
+        - generic [ref=e57]: Fatto con ❤️ in Italia
+  - alert [ref=e58]

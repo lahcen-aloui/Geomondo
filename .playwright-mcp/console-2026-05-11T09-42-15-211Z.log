@@ -1,0 +1,12 @@
+[     420ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   21754ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. In a future version, Next.js will no longer automatically disable smooth scrolling during route transitions. To prepare for this change, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15
+[   27525ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://graph.mapillary.com/images?fields=id&bbox=146.19258,-40.97935,146.29258000000002,-40.87935&limit=1&access_token=MLY|26904898545840318|45b0c02d9326d0489f7093998509db33:0
+[   33372ms] [WARNING] Incorrect mesh URL for 814906436127070 (null, null) @ webpack-internal:///(app-pages-browser)/./node_modules/mapillary-js/dist/mapillary.module.js:29731
+[   34084ms] [WARNING] Incorrect mesh URL for 170217814894699 (null, null) @ webpack-internal:///(app-pages-browser)/./node_modules/mapillary-js/dist/mapillary.module.js:29731
+[   34088ms] [WARNING] Incorrect mesh URL for 4286059134777616 (null, null) @ webpack-internal:///(app-pages-browser)/./node_modules/mapillary-js/dist/mapillary.module.js:29731
+[   35160ms] [WARNING] Incorrect mesh URL for 190155412942042 (null, null) @ webpack-internal:///(app-pages-browser)/./node_modules/mapillary-js/dist/mapillary.module.js:29731
+[   35165ms] [WARNING] Incorrect mesh URL for 314562723463895 (null, null) @ webpack-internal:///(app-pages-browser)/./node_modules/mapillary-js/dist/mapillary.module.js:29731
+[   38941ms] [WARNING] Incorrect mesh URL for 1147663615675663 (null, null) @ webpack-internal:///(app-pages-browser)/./node_modules/mapillary-js/dist/mapillary.module.js:29731
+[   39610ms] [WARNING] Incorrect mesh URL for 1458206914517213 (null, null) @ webpack-internal:///(app-pages-browser)/./node_modules/mapillary-js/dist/mapillary.module.js:29731
+[  219102ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  219784ms] [LOG] [Fast Refresh] done in 681ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13

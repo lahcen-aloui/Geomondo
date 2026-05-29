@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ─────────────────────────────────────────────── */
+:root,
+.dark {
+  --background: 15 15 15;
+  --surface: 26 26 26;
+  --surface-2: 34 34 34;
+  --surface-3: 46 46 46;
+  --border: 42 42 42;
+  --border-light: 58 58 58;
+  --muted: 107 107 107;
+  --foreground: 255 255 255;
+}
+
+.light {
+  --background: 245 245 245;
+  --surface: 255 255 255;
+  --surface-2: 239 239 239;
+  --surface-3: 229 229 229;
+  --border: 224 224 224;
+  --border-light: 208 208 208;
+  --muted: 136 136 136;
+  --foreground: 17 17 17;
+}
+
+/* Legacy hex vars kept for non-Tailwind usage (e.g. Leaflet overrides) */
+:root,
+.dark {
+  --it-green: #009246;
+  --it-green-dark: #007a3a;
+  --it-red: #ce2b37;
+  --grid-line: rgba(255, 255, 255, 0.05);
+}
+
+.light {
+  --grid-line: rgba(0, 0, 0, 0.07);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
+/* ─── Focus ring ────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--it-green);
+  outline-offset: 2px;
+}
+
+/* ─── Selection ─────────────────────────────────────────── */
+::selection {
+  background-color: var(--it-green);
+  color: #ffffff;
+}
+
+/* ─── Utilities ─────────────────────────────────────────── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-grid {
+    background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  background: rgb(var(--surface));
+}
+
+
+/* Reposition Mapillary bearing compass to the left side near our toolbar */
+:is(div) .mapillary-bearing-indicator-container {
+  right: auto !important;
+  bottom: auto !important;
+  left: 4px !important;
+  top: calc(50% + 130px) !important; /* just below our NavigationToolbar */
+  pointer-events: none !important;
+}
+
+/* Hide all other Mapillary built-in UI — we use our own custom controls */
+/* Use high-specificity :where() wrapper to guarantee override */
+:is(div) .mapillary-bearing-north-container,
+:is(div) .mapillary-navigation-backward,
+:is(div) .mapillary-navigation-forward,
+:is(div) .mapillary-navigation-left,
+:is(div) .mapillary-navigation-prev,
+:is(div) .mapillary-navigation-button,
+:is(div) .mapillary-navigation-spatial,
+:is(div) .mapillary-navigation-spatial-bottom,
+:is(div) .mapillary-navigation-sequence,
+:is(div) .mapillary-navigation-turn-around,
+:is(div) .mapillary-navigation-turn-left,
+:is(div) .mapillary-navigation-turn-right,
+:is(div) .mapillary-sequence-container,
+:is(div) .mapillary-sequence-controls,
+:is(div) .mapillary-sequence-stepper,
+:is(div) .mapillary-direction-arrow-step,
+:is(div) .mapillary-direction-arrow-spherical,
+:is(div) .mapillary-direction-arrow-inactive,
+:is(div) .mapillary-direction-circle,
+:is(div) .mapillary-direction-circle-sequence,
+:is(div) .mapillary-direction-turn-circle,
+:is(div) .mapillary-direction-perspective,
+:is(div) .mapillary-zoom-container,
+:is(div) .mapillary-zoom-in-button,
+:is(div) .mapillary-zoom-out-button,
+:is(div) .mapillary-attribution-container {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

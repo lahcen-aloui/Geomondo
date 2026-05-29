@@ -1,0 +1,22 @@
+[   24188ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   26768ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://graph.mapillary.com/images?fields=id&bbox=138.31528999999998,31.28963,138.41529,31.38963&limit=1&access_token=MLY|26904898545840318|45b0c02d9326d0489f7093998509db33:0
+[   31817ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://graph.mapillary.com/images?fields=id&bbox=83.53745,30.57539,83.57745,30.615389999999998&limit=1&access_token=MLY|26904898545840318|45b0c02d9326d0489f7093998509db33:0
+[   49431ms] [WARNING] Incorrect mesh URL for 1333816651611157 (null, null) @ webpack-internal:///(app-pages-browser)/./node_modules/mapillary-js/dist/mapillary.module.js:29731
+[  232553ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  233269ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/_next/static/webpack/89ffa1d8633e5609.webpack.hot-update.json:0
+[  233774ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  236882ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  237342ms] [LOG] [Fast Refresh] done in 460ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  241398ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  241595ms] [LOG] [Fast Refresh] done in 196ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  244855ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  245109ms] [LOG] [Fast Refresh] done in 254ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  245126ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  245490ms] [LOG] [Fast Refresh] done in 365ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  245791ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/location:0
+[  245796ms] Error: Failed to fetch location: 404
+    at getRandomLocationApi (webpack-internal:///(app-pages-browser)/./lib/api.ts:11:15)
+[  246811ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://graph.mapillary.com/images?fields=id&bbox=138.05729,42.25063,138.15729000000002,42.350629999999995&limit=1&access_token=MLY|26904898545840318|45b0c02d9326d0489f7093998509db33:0
+[  248378ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  248604ms] [LOG] [Fast Refresh] done in 226ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  256837ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://graph.mapillary.com/images?fields=id&bbox=-3.6062999999999996,46.71764,-3.5063,46.81764&limit=1&access_token=MLY|26904898545840318|45b0c02d9326d0489f7093998509db33:0

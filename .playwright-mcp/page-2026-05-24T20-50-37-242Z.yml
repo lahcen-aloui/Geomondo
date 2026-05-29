@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Geo 🌍 Mon do Indovina il mondo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]: Geo
+          - generic [ref=e7]: 🌍
+          - generic [ref=e8]: Mon
+          - generic [ref=e9]: do
+        - generic [ref=e10]: Indovina il mondo
+      - generic [ref=e11]:
+        - link "Come funziona" [ref=e12] [cursor=pointer]:
+          - /url: /come-funziona
+        - link "Classifica" [ref=e13] [cursor=pointer]:
+          - /url: /classifica
+      - generic [ref=e14]:
+        - button "Switch to English" [ref=e16] [cursor=pointer]: EN
+        - link "Accedi" [ref=e17] [cursor=pointer]:
+          - /url: /accedi
+        - link "🌍 Gioca" [ref=e18] [cursor=pointer]:
+          - /url: /gioca
+          - generic [ref=e19]: 🌍
+          - text: Gioca
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: Gratis · Nessuna registrazione richiesta
+        - heading "Indovina dove sei nel mondo" [level=1] [ref=e26]:
+          - generic [ref=e27]: Indovina dove sei
+          - text: nel mondo
+        - paragraph [ref=e28]: Esplora il pianeta tramite Street View, scopri luoghi straordinari e sfida te stesso. Zero costi, zero limiti.
+        - generic [ref=e29]:
+          - link "🌍 Gioca Gratis" [ref=e30] [cursor=pointer]:
+            - /url: /gioca
+          - link "Come funziona →" [ref=e31] [cursor=pointer]:
+            - /url: "#come-funziona"
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: 50k+
+          - generic [ref=e36]: Luoghi nel mondo
+        - generic [ref=e37]:
+          - generic [ref=e38]: "4"
+          - generic [ref=e39]: Modalità di gioco
+        - generic [ref=e40]:
+          - generic [ref=e41]: 100%
+          - generic [ref=e42]: Gratuito
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Come funziona" [level=2] [ref=e46]
+          - paragraph [ref=e47]: Tre semplici passi per esplorare il mondo
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic: "01"
+            - img [ref=e51]
+            - heading "Esplora" [level=3] [ref=e54]
+            - paragraph [ref=e55]: Vieni catapultato in un posto a caso nel mondo tramite Street View
+          - generic [ref=e56]:
+            - generic: "02"
+            - img [ref=e58]
+            - heading "Indovina" [level=3] [ref=e61]
+            - paragraph [ref=e62]: Posiziona un pin sulla mappa del mondo dove pensi di trovarti
+          - generic [ref=e63]:
+            - generic: "03"
+            - img [ref=e65]
+            - heading "Scopri" [level=3] [ref=e67]
+            - paragraph [ref=e68]: Scopri quanto eri preciso, guadagna punti e scala la classifica
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - heading "Modalità di gioco" [level=2] [ref=e72]
+          - paragraph [ref=e73]: Scegli la sfida che fa per te
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - heading "Classico" [level=3] [ref=e77]
+              - generic [ref=e78]: Consigliato
+            - paragraph [ref=e79]: 5 round nel mondo intero, senza limite di tempo. La modalità originale.
+            - link "Gioca" [ref=e80] [cursor=pointer]:
+              - /url: /gioca/classico
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "Sprint" [level=3] [ref=e83]
+              - generic [ref=e84]: Veloce
+            - paragraph [ref=e85]: 60 secondi per round. Massima adrenalina, nessuna esitazione.
+            - generic [ref=e86]: Prossimamente
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - heading "Paese" [level=3] [ref=e89]
+              - generic [ref=e90]: Facile
+            - paragraph [ref=e91]: Indovina solo la nazione, non la posizione esatta. Più semplice.
+            - generic [ref=e92]: Prossimamente
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - heading "Solo Italia" [level=3] [ref=e95]
+              - generic [ref=e96]: Italia
+            - paragraph [ref=e97]: Esplora solo le strade e i paesaggi italiani. Per i patrioti.
+            - generic [ref=e98]: Prossimamente
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading "Classifica Globale" [level=2] [ref=e103]
+            - paragraph [ref=e104]: I migliori esploratori del mondo
+          - link "Vedi tutti →" [ref=e105] [cursor=pointer]:
+            - /url: /classifica
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: "#"
+            - generic [ref=e109]: Giocatore
+            - generic [ref=e110]: Miglior Punteggio
+            - generic [ref=e111]: Partite
+            - generic [ref=e112]: Media
+          - generic [ref=e113]:
+            - text: Classifica —
+            - link "Gioca" [ref=e114] [cursor=pointer]:
+              - /url: /gioca
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - link "Geo 🌍 Mon do" [ref=e119] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e120]: Geo
+            - generic [ref=e121]: 🌍
+            - generic [ref=e122]: Mon
+            - generic [ref=e123]: do
+          - paragraph [ref=e124]: Un progetto open source. Ispirato a WorldGuessr.
+        - navigation [ref=e125]:
+          - link "Gioca" [ref=e126] [cursor=pointer]:
+            - /url: /gioca
+          - link "Classifica" [ref=e127] [cursor=pointer]:
+            - /url: /classifica
+          - link "Come funziona" [ref=e128] [cursor=pointer]:
+            - /url: /come-funziona
+      - generic [ref=e133]:
+        - generic [ref=e134]: © 2026 GeoMondo
+        - generic [ref=e135]: Fatto con ❤️ in Italia

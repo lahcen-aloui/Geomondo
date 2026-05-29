@@ -1,0 +1,141 @@
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e148] [cursor=pointer]:
+    - img [ref=e149]
+  - alert [ref=e152]: GeoMondo — Indovina dove sei nel mondo · GeoMondo
+  - banner [ref=e298]:
+    - navigation [ref=e299]:
+      - link "Geo 🌏 Mon do Indovina il mondo" [ref=e300] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e301]:
+          - generic [ref=e302]: Geo
+          - generic [ref=e303]: 🌏
+          - generic [ref=e304]: Mon
+          - generic [ref=e305]: do
+        - generic [ref=e306]: Indovina il mondo
+      - generic [ref=e307]:
+        - link "Come funziona" [ref=e308] [cursor=pointer]:
+          - /url: /come-funziona
+        - link "Classifica" [ref=e309] [cursor=pointer]:
+          - /url: /classifica
+      - generic [ref=e310]:
+        - button "Attiva modalità scura" [active] [ref=e438] [cursor=pointer]:
+          - img [ref=e439]
+        - button "Switch to English" [ref=e318] [cursor=pointer]: EN
+        - link "Accedi" [ref=e319] [cursor=pointer]:
+          - /url: /accedi
+        - link "🌍 Gioca" [ref=e320] [cursor=pointer]:
+          - /url: /gioca
+          - generic [ref=e321]: 🌍
+          - text: Gioca
+  - main [ref=e322]:
+    - generic [ref=e323]:
+      - generic [ref=e325]:
+        - generic [ref=e326]: Gratis · Nessuna registrazione richiesta
+        - heading "Indovina dove sei nel mondo" [level=1] [ref=e328]:
+          - generic [ref=e329]: Indovina dove sei
+          - text: nel mondo
+        - paragraph [ref=e330]: Esplora il pianeta tramite Street View, scopri luoghi straordinari e sfida te stesso. Zero costi, zero limiti.
+        - generic [ref=e331]:
+          - link "🌍 Gioca Gratis" [ref=e332] [cursor=pointer]:
+            - /url: /gioca
+          - link "Come funziona →" [ref=e333] [cursor=pointer]:
+            - /url: "#come-funziona"
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - generic [ref=e337]: 50k+
+          - generic [ref=e338]: Luoghi nel mondo
+        - generic [ref=e339]:
+          - generic [ref=e340]: "4"
+          - generic [ref=e341]: Modalità di gioco
+        - generic [ref=e342]:
+          - generic [ref=e343]: 100%
+          - generic [ref=e344]: Gratuito
+      - generic [ref=e346]:
+        - generic [ref=e347]:
+          - heading "Come funziona" [level=2] [ref=e348]
+          - paragraph [ref=e349]: Tre semplici passi per esplorare il mondo
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - generic: "01"
+            - img [ref=e353]
+            - heading "Esplora" [level=3] [ref=e356]
+            - paragraph [ref=e357]: Vieni catapultato in un posto a caso nel mondo tramite Street View
+          - generic [ref=e358]:
+            - generic: "02"
+            - img [ref=e360]
+            - heading "Indovina" [level=3] [ref=e363]
+            - paragraph [ref=e364]: Posiziona un pin sulla mappa del mondo dove pensi di trovarti
+          - generic [ref=e365]:
+            - generic: "03"
+            - img [ref=e367]
+            - heading "Scopri" [level=3] [ref=e369]
+            - paragraph [ref=e370]: Scopri quanto eri preciso, guadagna punti e scala la classifica
+      - generic [ref=e372]:
+        - generic [ref=e373]:
+          - heading "Modalità di gioco" [level=2] [ref=e374]
+          - paragraph [ref=e375]: Scegli la sfida che fa per te
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - heading "Classico" [level=3] [ref=e379]
+              - generic [ref=e380]: Consigliato
+            - paragraph [ref=e381]: 5 round nel mondo intero, senza limite di tempo. La modalità originale.
+            - link "Gioca" [ref=e382] [cursor=pointer]:
+              - /url: /gioca/classico
+          - generic [ref=e383]:
+            - generic [ref=e384]:
+              - heading "Sprint" [level=3] [ref=e385]
+              - generic [ref=e386]: Veloce
+            - paragraph [ref=e387]: 60 secondi per round. Massima adrenalina, nessuna esitazione.
+            - generic [ref=e388]: Prossimamente
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - heading "Paese" [level=3] [ref=e391]
+              - generic [ref=e392]: Facile
+            - paragraph [ref=e393]: Indovina solo la nazione, non la posizione esatta. Più semplice.
+            - generic [ref=e394]: Prossimamente
+          - generic [ref=e395]:
+            - generic [ref=e396]:
+              - heading "Solo Italia" [level=3] [ref=e397]
+              - generic [ref=e398]: Italia
+            - paragraph [ref=e399]: Esplora solo le strade e i paesaggi italiani. Per i patrioti.
+            - generic [ref=e400]: Prossimamente
+      - generic [ref=e402]:
+        - generic [ref=e403]:
+          - generic [ref=e404]:
+            - heading "Classifica Globale" [level=2] [ref=e405]
+            - paragraph [ref=e406]: I migliori esploratori del mondo
+          - link "Vedi tutti →" [ref=e407] [cursor=pointer]:
+            - /url: /classifica
+        - generic [ref=e408]:
+          - generic [ref=e409]:
+            - generic [ref=e410]: "#"
+            - generic [ref=e411]: Giocatore
+            - generic [ref=e412]: Miglior Punteggio
+            - generic [ref=e413]: Partite
+            - generic [ref=e414]: Media
+          - generic [ref=e415]:
+            - text: Classifica —
+            - link "Gioca" [ref=e416] [cursor=pointer]:
+              - /url: /gioca
+  - contentinfo [ref=e417]:
+    - generic [ref=e418]:
+      - generic [ref=e419]:
+        - generic [ref=e420]:
+          - link "Geo 🌏 Mon do" [ref=e421] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e422]: Geo
+            - generic [ref=e423]: 🌏
+            - generic [ref=e424]: Mon
+            - generic [ref=e425]: do
+          - paragraph [ref=e426]: Un progetto open source. Ispirato a WorldGuessr.
+        - navigation [ref=e427]:
+          - link "Gioca" [ref=e428] [cursor=pointer]:
+            - /url: /gioca
+          - link "Classifica" [ref=e429] [cursor=pointer]:
+            - /url: /classifica
+          - link "Come funziona" [ref=e430] [cursor=pointer]:
+            - /url: /come-funziona
+      - generic [ref=e435]:
+        - generic [ref=e436]: © 2026 GeoMondo
+        - generic [ref=e437]: Fatto con ❤️ in Italia

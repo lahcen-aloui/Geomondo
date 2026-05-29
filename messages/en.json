@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "play": "Play",
+    "leaderboard": "Leaderboard",
+    "howItWorks": "How it works",
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "profile": "Profile",
+    "logoTagline": "Guess the world"
+  },
+  "home": {
+    "hero": {
+      "badge": "Free · No registration required",
+      "title": "Guess where you are",
+      "titleAccent": "in the world",
+      "subtitle": "Explore the planet through Street View, discover extraordinary places, and challenge yourself. Zero cost, zero limits.",
+      "cta": "Play Free",
+      "ctaSecondary": "How it works",
+      "ctaArrow": "→"
+    },
+    "stats": {
+      "locations": "Locations worldwide",
+      "locationsValue": "10k+",
+      "modes": "Game modes",
+      "modesValue": "1",
+      "free": "Free",
+      "freeValue": "100%"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "Three simple steps to explore the world",
+      "step1": {
+        "number": "01",
+        "title": "Explore",
+        "desc": "Get dropped somewhere in the world through Street View"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Guess",
+        "desc": "Drop a pin on the world map where you think you are"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Discover",
+        "desc": "See how accurate you were, earn points and climb the leaderboard"
+      }
+    },
+    "modes": {
+      "title": "Game modes",
+      "subtitle": "Choose the challenge that suits you",
+      "playMode": "Play"
+    },
+    "leaderboard": {
+      "title": "Global Leaderboard",
+      "subtitle": "The world's best explorers",
+      "viewAll": "View all",
+      "rank": "#",
+      "player": "Player",
+      "bestScore": "Best Score",
+      "games": "Games",
+      "avgScore": "Average"
+    }
+  },
+  "modes": {
+    "comingSoon": "Coming Soon",
+    "classico": {
+      "name": "Classic",
+      "desc": "5 rounds across the entire world, no time limit. The original mode.",
+      "tag": "Recommended"
+    },
+    "sprint": {
+      "name": "Sprint",
+      "desc": "60 seconds per round. Maximum adrenaline, no hesitation.",
+      "tag": "Fast"
+    },
+    "paese": {
+      "name": "Country",
+      "desc": "Guess only the country, not the exact location. Easier.",
+      "tag": "Easy"
+    },
+    "italia": {
+      "name": "Italy Only",
+      "desc": "Explore only Italian roads and landscapes. For patriots.",
+      "tag": "Italy"
+    }
+  },
+  "game": {
+    "round": "Round",
+    "of": "of",
+    "confirmGuess": "Guess",
+    "score": "Score",
+    "nextRound": "Next Round",
+    "viewResults": "View Results",
+    "timeLeft": "Time left",
+    "dropPin": "Place your pin on the map",
+    "expandMap": "Expand map",
+    "collapseMap": "Collapse map",
+    "loading": "Loading...",
+    "guestPrompt": "Save your score by creating a free account",
+    "roundAbbr": "R",
+    "noScore": "–",
+    "total": "Total",
+    "rotateLeft": "Rotate Left",
+    "rotateRight": "Rotate Right",
+    "resetNorth": "Reset North",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "goBack": "Go Back",
+    "returnToStart": "Return to Start",
+    "locationErrorTitle": "We could not find a view",
+    "locationErrorDescription": "We tried several locations, but Street View did not return a playable panorama. Try again with a fresh round.",
+    "retryLocation": "Try again"
+  },
+  "result": {
+    "distance": "Distance",
+    "score": "Score",
+    "share": "Share",
+    "playAgain": "Play Again",
+    "km": "km",
+    "perfect": "Perfect!",
+    "excellent": "Excellent!",
+    "good": "Good!",
+    "notBad": "Not bad!",
+    "tryAgain": "Try again!",
+    "yourGuess": "Your guess",
+    "correctLocation": "Correct location",
+    "finalScore": "Final Score",
+    "saveScore": "Save score",
+    "roundOf": "Round {round} of {total}",
+    "copiedToClipboard": "Copied to clipboard!",
+    "shareTemplate": "I played GeoMondo ({mode}) and scored {score}/25,000! 🌍 geomondo.it",
+    "fromLocation": "from location",
+    "outOfPoints": "out of 5,000 pts",
+    "pressEnter": "Press Enter",
+    "emptyTitle": "No result available",
+    "emptyDescription": "Complete a classic game to see your score summary.",
+    "startPlaying": "Play",
+    "guestBannerTitle": "Save your score to the leaderboard",
+    "guestBannerDesc": "Create a free account to keep this score and challenge other players.",
+    "guestBannerCta": "Create free account"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "continueWithGoogle": "Continue with Google",
+    "orEmail": "or with email",
+    "emailPlaceholder": "Your email",
+    "magicLinkSent": "Link sent! Check your email.",
+    "chooseUsername": "Choose a username",
+    "usernamePlaceholder": "e.g. explorer_xyz",
+    "saveAndContinue": "Save and continue"
+  },
+  "profile": {
+    "memberSince": "Member since",
+    "totalGames": "Games played",
+    "bestScore": "Best score",
+    "avgScore": "Average",
+    "recentGames": "Recent games",
+    "noGames": "No games played yet",
+    "mode": "Mode",
+    "score": "Score",
+    "date": "Date",
+    "notFound": "Player not found",
+    "deleteAccount": "Delete account",
+    "deleteAccountTitle": "Delete your account?",
+    "deleteAccountWarning": "This will permanently delete your account, profile, and all your stats. Your game history will be anonymised. This action cannot be undone.",
+    "deleteConfirm": "Yes, delete",
+    "deleting": "Deleting…",
+    "cancel": "Cancel",
+    "deleteError": "Something went wrong. Please try again.",
+    "dangerZone": "Danger zone"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "generic": "Something went wrong",
+    "backHome": "Back to home"
+  },
+  "cookie": {
+    "message": "We use a session cookie to keep you logged in. If we add analytics or ads in the future, we'll ask for your consent first.",
+    "accept": "Accept all",
+    "necessary": "Necessary only",
+    "learnMore": "Privacy Policy"
+  },
+  "footer": {
+    "tagline": "An open source project. Inspired by WorldGuessr.",
+    "madeWith": "Made with ❤️ in Italy",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "supportUs": "Buy us a coffee"
+  },
+  "meta": {
+    "title": "GeoMondo — Guess where you are in the world",
+    "description": "The free geography game. Explore the world through Street View and challenge yourself."
+  }
+}

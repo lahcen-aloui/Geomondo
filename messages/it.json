@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "play": "Gioca",
+    "leaderboard": "Classifica",
+    "howItWorks": "Come funziona",
+    "login": "Accedi",
+    "logout": "Esci",
+    "profile": "Profilo",
+    "logoTagline": "Indovina il mondo"
+  },
+  "home": {
+    "hero": {
+      "badge": "Gratis · Nessuna registrazione richiesta",
+      "title": "Indovina dove sei",
+      "titleAccent": "nel mondo",
+      "subtitle": "Esplora il pianeta tramite Street View, scopri luoghi straordinari e sfida te stesso. Zero costi, zero limiti.",
+      "cta": "Gioca Gratis",
+      "ctaSecondary": "Come funziona",
+      "ctaArrow": "→"
+    },
+    "stats": {
+      "locations": "Luoghi nel mondo",
+      "locationsValue": "10k+",
+      "modes": "Modalità di gioco",
+      "modesValue": "1",
+      "free": "Gratuito",
+      "freeValue": "100%"
+    },
+    "howItWorks": {
+      "title": "Come funziona",
+      "subtitle": "Tre semplici passi per esplorare il mondo",
+      "step1": {
+        "number": "01",
+        "title": "Esplora",
+        "desc": "Vieni catapultato in un posto a caso nel mondo tramite Street View"
+      },
+      "step2": {
+        "number": "02",
+        "title": "Indovina",
+        "desc": "Posiziona un pin sulla mappa del mondo dove pensi di trovarti"
+      },
+      "step3": {
+        "number": "03",
+        "title": "Scopri",
+        "desc": "Scopri quanto eri preciso, guadagna punti e scala la classifica"
+      }
+    },
+    "modes": {
+      "title": "Modalità di gioco",
+      "subtitle": "Scegli la sfida che fa per te",
+      "playMode": "Gioca"
+    },
+    "leaderboard": {
+      "title": "Classifica Globale",
+      "subtitle": "I migliori esploratori del mondo",
+      "viewAll": "Vedi tutti",
+      "rank": "#",
+      "player": "Giocatore",
+      "bestScore": "Miglior Punteggio",
+      "games": "Partite",
+      "avgScore": "Media"
+    }
+  },
+  "modes": {
+    "comingSoon": "Prossimamente",
+    "classico": {
+      "name": "Classico",
+      "desc": "5 round nel mondo intero, senza limite di tempo. La modalità originale.",
+      "tag": "Consigliato"
+    },
+    "sprint": {
+      "name": "Sprint",
+      "desc": "60 secondi per round. Massima adrenalina, nessuna esitazione.",
+      "tag": "Veloce"
+    },
+    "paese": {
+      "name": "Paese",
+      "desc": "Indovina solo la nazione, non la posizione esatta. Più semplice.",
+      "tag": "Facile"
+    },
+    "italia": {
+      "name": "Solo Italia",
+      "desc": "Esplora solo le strade e i paesaggi italiani. Per i patrioti.",
+      "tag": "Italia"
+    }
+  },
+  "game": {
+    "round": "Round",
+    "of": "di",
+    "confirmGuess": "Indovina",
+    "score": "Punteggio",
+    "nextRound": "Prossimo Round",
+    "viewResults": "Vedi Risultati",
+    "timeLeft": "Tempo rimasto",
+    "dropPin": "Posiziona il tuo pin sulla mappa",
+    "expandMap": "Espandi mappa",
+    "collapseMap": "Comprimi mappa",
+    "loading": "Caricamento...",
+    "guestPrompt": "Salva il tuo punteggio creando un account gratuito",
+    "roundAbbr": "R",
+    "noScore": "–",
+    "total": "Totale",
+    "rotateLeft": "Ruota a sinistra",
+    "rotateRight": "Ruota a destra",
+    "resetNorth": "Nord",
+    "zoomIn": "Zoom avanti",
+    "zoomOut": "Zoom indietro",
+    "goBack": "Torna indietro",
+    "returnToStart": "Torna all'inizio",
+    "locationErrorTitle": "Non siamo riusciti a trovare una vista",
+    "locationErrorDescription": "Abbiamo provato più luoghi, ma Street View non ha restituito un panorama giocabile. Riprova con un nuovo round.",
+    "retryLocation": "Riprova"
+  },
+  "result": {
+    "distance": "Distanza",
+    "score": "Punteggio",
+    "share": "Condividi",
+    "playAgain": "Gioca ancora",
+    "km": "km",
+    "perfect": "Perfetto!",
+    "excellent": "Eccellente!",
+    "good": "Bene!",
+    "notBad": "Non male!",
+    "tryAgain": "Riprova!",
+    "yourGuess": "La tua risposta",
+    "correctLocation": "Posizione corretta",
+    "finalScore": "Punteggio Finale",
+    "saveScore": "Salva punteggio",
+    "roundOf": "Round {round} di {total}",
+    "copiedToClipboard": "Copiato negli appunti!",
+    "shareTemplate": "Ho giocato GeoMondo ({mode}) e ho fatto {score}/25.000 punti! 🌍 geomondo.it",
+    "fromLocation": "dalla posizione",
+    "outOfPoints": "su 5.000 pt",
+    "pressEnter": "Premi Invio",
+    "emptyTitle": "Nessun risultato disponibile",
+    "emptyDescription": "Completa una partita classica per vedere il riepilogo del tuo punteggio.",
+    "startPlaying": "Gioca",
+    "guestBannerTitle": "Salva il tuo punteggio in classifica",
+    "guestBannerDesc": "Crea un account gratuito per conservare questo punteggio e sfidare gli altri giocatori.",
+    "guestBannerCta": "Crea account gratuito"
+  },
+  "auth": {
+    "signIn": "Accedi",
+    "signUp": "Registrati",
+    "signOut": "Esci",
+    "continueWithGoogle": "Continua con Google",
+    "orEmail": "oppure con email",
+    "emailPlaceholder": "La tua email",
+    "magicLinkSent": "Link inviato! Controlla la tua email.",
+    "chooseUsername": "Scegli un nome utente",
+    "usernamePlaceholder": "es. esploratore_xyz",
+    "saveAndContinue": "Salva e continua"
+  },
+  "profile": {
+    "memberSince": "Membro dal",
+    "totalGames": "Partite giocate",
+    "bestScore": "Miglior punteggio",
+    "avgScore": "Media",
+    "recentGames": "Partite recenti",
+    "noGames": "Nessuna partita ancora",
+    "mode": "Modalità",
+    "score": "Punteggio",
+    "date": "Data",
+    "notFound": "Giocatore non trovato",
+    "deleteAccount": "Elimina account",
+    "deleteAccountTitle": "Eliminare il tuo account?",
+    "deleteAccountWarning": "Questo eliminerà definitivamente il tuo account, profilo e tutte le statistiche. La cronologia delle partite verrà anonimizzata. Questa azione non può essere annullata.",
+    "deleteConfirm": "Sì, elimina",
+    "deleting": "Eliminazione…",
+    "cancel": "Annulla",
+    "deleteError": "Qualcosa è andato storto. Riprova.",
+    "dangerZone": "Zona pericolosa"
+  },
+  "errors": {
+    "notFound": "Pagina non trovata",
+    "generic": "Qualcosa è andato storto",
+    "backHome": "Torna alla home"
+  },
+  "cookie": {
+    "message": "Utilizziamo un cookie di sessione per mantenerti connesso. Se in futuro aggiungeremo analytics o pubblicità, ti chiederemo prima il consenso.",
+    "accept": "Accetta tutto",
+    "necessary": "Solo necessari",
+    "learnMore": "Privacy Policy"
+  },
+  "footer": {
+    "tagline": "Un progetto open source. Ispirato a WorldGuessr.",
+    "madeWith": "Fatto con ❤️ in Italia",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di servizio",
+    "supportUs": "Offrici un caffè"
+  },
+  "meta": {
+    "title": "GeoMondo — Indovina dove sei nel mondo",
+    "description": "Il gioco di geografia gratuito. Esplora il mondo tramite Street View e sfida te stesso."
+  }
+}

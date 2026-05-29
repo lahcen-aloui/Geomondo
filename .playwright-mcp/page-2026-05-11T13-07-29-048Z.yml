@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ge Mondo Guess the world" [ref=e4] [cursor=pointer]:
+        - /url: /en
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - text: Ge
+            - img [ref=e7]
+          - text: Mondo
+        - generic [ref=e10]: Guess the world
+      - generic [ref=e11]:
+        - link "How it works" [ref=e12] [cursor=pointer]:
+          - /url: /en/come-funziona
+        - link "Leaderboard" [ref=e13] [cursor=pointer]:
+          - /url: /en/classifica
+      - generic [ref=e14]:
+        - link "Sign In" [ref=e15] [cursor=pointer]:
+          - /url: /en/accedi
+        - link "🌍 Play" [ref=e16] [cursor=pointer]:
+          - /url: /en/gioca
+          - generic [ref=e17]: 🌍
+          - text: Play
+  - main [ref=e18]:
+    - paragraph [ref=e20]: Loading...
+  - contentinfo [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - link "GeoMondo" [ref=e25] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e26]: GeoMondo
+          - paragraph [ref=e27]: Un progetto open source. Ispirato a WorldGuessr.
+        - navigation [ref=e28]:
+          - link "Play" [ref=e29] [cursor=pointer]:
+            - /url: /en/gioca
+          - link "Leaderboard" [ref=e30] [cursor=pointer]:
+            - /url: /en/classifica
+          - link "How it works" [ref=e31] [cursor=pointer]:
+            - /url: /en/come-funziona
+      - generic [ref=e36]:
+        - generic [ref=e37]: © 2026 GeoMondo
+        - generic [ref=e38]: Fatto con ❤️ in Italia
