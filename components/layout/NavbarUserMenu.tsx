@@ -28,9 +28,14 @@ export default function NavbarUserMenu({ username }: Props) {
     return (
       <Link
         href="/accedi"
-        className="text-sm text-muted hover:text-foreground px-3 py-2 rounded-lg transition-colors"
+        className="inline-flex items-center gap-1.5 text-sm text-muted hover:text-foreground px-2 sm:px-3 py-2 rounded-lg transition-colors border border-border hover:border-foreground/30"
       >
-        {t('login')}
+        {/* Person icon */}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 flex-shrink-0">
+          <circle cx="12" cy="8" r="4" />
+          <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
+        </svg>
+        <span className="hidden sm:inline">{t('login')}</span>
       </Link>
     );
   }

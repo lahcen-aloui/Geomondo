@@ -52,20 +52,23 @@ export default async function Navbar() {
         </div>
 
         {/* CTA + Auth */}
-        <div className="flex items-center gap-3">
-          <ThemeToggle />
-          <LocaleSwitcher />
+        <div className="flex items-center gap-2">
+          {/* Theme + Locale — desktop only */}
+          <div className="hidden sm:flex items-center gap-2">
+            <ThemeToggle />
+            <LocaleSwitcher />
+          </div>
 
           {/* Auth state */}
           <NavbarUserMenu username={username} avatarUrl={avatarUrl} />
 
-          {/* Primary CTA */}
+          {/* Primary CTA — icon only on mobile, full label on desktop */}
           <Link
             href="/gioca"
-            className="inline-flex items-center gap-2 bg-it-green hover:bg-it-green-dark text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+            className="inline-flex items-center gap-1.5 bg-it-green hover:bg-it-green-dark text-white font-semibold rounded-lg transition-colors px-3 py-2 sm:px-4 text-sm"
           >
             <span>🌍</span>
-            {t('play')}
+            <span className="hidden sm:inline">{t('play')}</span>
           </Link>
         </div>
       </nav>
