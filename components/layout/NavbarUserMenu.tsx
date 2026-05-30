@@ -28,7 +28,7 @@ export default function NavbarUserMenu({ username }: Props) {
     return (
       <Link
         href="/accedi"
-        className="hidden sm:block text-sm text-muted hover:text-foreground px-3 py-2 rounded-lg transition-colors"
+        className="text-sm text-muted hover:text-foreground px-3 py-2 rounded-lg transition-colors"
       >
         {t('login')}
       </Link>
