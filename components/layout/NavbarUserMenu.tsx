@@ -51,10 +51,15 @@ export default function NavbarUserMenu({ username }: Props) {
     <div className="relative" ref={ref}>
       <button
         onClick={() => setOpen(o => !o)}
-        className="w-8 h-8 rounded-full bg-it-green flex items-center justify-center text-white font-bold text-sm uppercase select-none focus:outline-none hover:opacity-90 transition-opacity"
+        className="w-8 h-8 rounded-full overflow-hidden bg-it-green flex items-center justify-center text-white font-bold text-sm uppercase select-none focus:outline-none hover:opacity-90 transition-opacity ring-2 ring-it-green/30"
         aria-label={username}
       >
-        {username[0]}
+        {avatarUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={avatarUrl} alt={username} className="w-full h-full object-cover" />
+        ) : (
+          username[0]
+        )}
       </button>
 
       {open && (

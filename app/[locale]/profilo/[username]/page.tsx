@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import { createClient } from '@/lib/supabase/server';
 import DeleteAccountButton from '@/components/profile/DeleteAccountButton';
+import AvatarUpload from '@/components/profile/AvatarUpload';
 
 type Props = {
   params: Promise<{ locale: string; username: string }>;
@@ -85,9 +86,24 @@ export default async function ProfiloPage({ params }: Props) {
 
         {/* ── Profile header ──────────────────────────────────────── */}
         <div className="flex items-center gap-6 mb-10">
-          <div className="w-20 h-20 rounded-full bg-it-green flex items-center justify-center text-white font-black text-3xl uppercase select-none flex-shrink-0 ring-4 ring-it-green/20">
-            {profile.username[0]}
-          </div>
+          {isOwner ? (
+            <AvatarUpload
+              userId={profile.id}
+              username={profile.username}
+              currentAvatarUrl={profile.avatar_url}
+            />
+          ) : (
+            <div className="w-20 h-20 rounded-full overflow-hidden ring-4 ring-it-green/20 flex-shrink-0">
+              {profile.avatar_url ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={profile.avatar_url} alt={profile.username} className="w-full h-full object-cover" />
+              ) : (
+                <div className="w-full h-full bg-it-green flex items-center justify-center text-white font-black text-3xl uppercase select-none">
+                  {profile.username[0]}
+                </div>
+              )}
+            </div>
+          )}
           <div className="flex-1">
             <h1 className="text-3xl font-black text-foreground leading-none mb-1">
               {profile.username}
