@@ -10,7 +10,7 @@ interface Props {
   avatarUrl: string | null;
 }
 
-export default function NavbarUserMenu({ username }: Props) {
+export default function NavbarUserMenu({ username, avatarUrl }: Props) {
   const t = useTranslations('nav');
   const router = useRouter();
   const [open, setOpen] = useState(false);
