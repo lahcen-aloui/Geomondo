@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link, useRouter } from '@/i18n/navigation';
 import { createClient } from '@/lib/supabase/client';
+import { isOwnAvatar, avatarGradient } from '@/lib/avatar';
 
 interface Props {
   username: string | null;
@@ -51,10 +52,11 @@ export default function NavbarUserMenu({ username, avatarUrl }: Props) {
     <div className="relative" ref={ref}>
       <button
         onClick={() => setOpen(o => !o)}
-        className="w-8 h-8 rounded-full overflow-hidden bg-it-green flex items-center justify-center text-white font-bold text-sm uppercase select-none focus:outline-none hover:opacity-90 transition-opacity ring-2 ring-it-green/30"
+        className="w-8 h-8 rounded-full overflow-hidden flex items-center justify-center text-white font-bold text-sm uppercase select-none focus:outline-none hover:opacity-90 transition-opacity ring-2 ring-white/20"
+        style={isOwnAvatar(avatarUrl) ? undefined : { background: avatarGradient(username) }}
         aria-label={username}
       >
-        {avatarUrl ? (
+        {isOwnAvatar(avatarUrl) ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={avatarUrl} alt={username} className="w-full h-full object-cover" />
         ) : (

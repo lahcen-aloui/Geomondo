@@ -3,6 +3,7 @@
 import { useRef, useState, useTransition } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { useRouter } from '@/i18n/navigation';
+import { isOwnAvatar, avatarGradient } from '@/lib/avatar';
 
 interface Props {
   userId: string;
@@ -18,7 +19,8 @@ export default function AvatarUpload({ userId, username, currentAvatarUrl }: Pro
   const [error, setError] = useState<string | null>(null);
   const [, startTransition] = useTransition();
 
-  const avatarUrl = preview ?? currentAvatarUrl;
+  const rawUrl = preview ?? currentAvatarUrl;
+  const avatarUrl = isOwnAvatar(rawUrl) ? rawUrl : null;
 
   async function handleFile(file: File) {
     if (!file.type.startsWith('image/')) {
@@ -94,13 +96,12 @@ export default function AvatarUpload({ userId, username, currentAvatarUrl }: Pro
       >
         {avatarUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={avatarUrl}
-            alt={username}
-            className="w-full h-full object-cover"
-          />
+          <img src={avatarUrl} alt={username} className="w-full h-full object-cover" />
         ) : (
-          <div className="w-full h-full bg-it-green flex items-center justify-center text-white font-black text-3xl uppercase select-none">
+          <div
+            className="w-full h-full flex items-center justify-center text-white font-black text-3xl uppercase select-none"
+            style={{ background: avatarGradient(username) }}
+          >
             {username[0]}
           </div>
         )}

@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation';
 import { createClient } from '@/lib/supabase/server';
 import DeleteAccountButton from '@/components/profile/DeleteAccountButton';
 import AvatarUpload from '@/components/profile/AvatarUpload';
+import { isOwnAvatar, avatarGradient } from '@/lib/avatar';
 
 type Props = {
   params: Promise<{ locale: string; username: string }>;
@@ -94,11 +95,14 @@ export default async function ProfiloPage({ params }: Props) {
             />
           ) : (
             <div className="w-20 h-20 rounded-full overflow-hidden ring-4 ring-it-green/20 flex-shrink-0">
-              {profile.avatar_url ? (
+              {isOwnAvatar(profile.avatar_url) ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={profile.avatar_url} alt={profile.username} className="w-full h-full object-cover" />
               ) : (
-                <div className="w-full h-full bg-it-green flex items-center justify-center text-white font-black text-3xl uppercase select-none">
+                <div
+                  className="w-full h-full flex items-center justify-center text-white font-black text-3xl uppercase select-none"
+                  style={{ background: avatarGradient(profile.username) }}
+                >
                   {profile.username[0]}
                 </div>
               )}
