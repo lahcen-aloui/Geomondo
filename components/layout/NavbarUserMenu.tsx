@@ -44,8 +44,9 @@ export default function NavbarUserMenu({ username, avatarUrl }: Props) {
   async function handleSignOut() {
     const supabase = createClient();
     await supabase.auth.signOut();
-    router.refresh();
     setOpen(false);
+    router.push('/');
+    router.refresh();
   }
 
   return (
