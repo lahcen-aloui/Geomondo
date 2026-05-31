@@ -133,7 +133,7 @@ export default function StreetViewPanel({
     if (!isLoaded || !containerRef.current) return;
 
     const service = new google.maps.StreetViewService();
-    service.getPanorama({ location: { lat, lng }, radius: 50 }, (data, status) => {
+    service.getPanorama({ location: { lat, lng }, radius: 50000, preference: google.maps.StreetViewPreference.NEAREST }, (data, status) => {
       if (status !== google.maps.StreetViewStatus.OK || !data?.location?.pano) {
         onNoImageRef.current?.();
         return;
